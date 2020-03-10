@@ -16,7 +16,7 @@ type TodoItem @key(fields: "id") {
 }
 
 extend type User @key(fields: "id") {
-    id: ID!
+    id: ID! @external
     assignedTodos: [Todo!]!
 }
 
