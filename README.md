@@ -18,5 +18,5 @@ Run `yarn build` to generate both.
 Run `yarn start` to start the gateway.
 
 TODO:
-- fix gateway
+- add resolvers for service clients
 - dockerize gateway 
